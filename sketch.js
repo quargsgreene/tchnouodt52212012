@@ -73,6 +73,7 @@ class PanelSynth {
     const synthButton = createButton('');
     synthButton.style('background-color', this.col);
     synthButton.position(this.posX, this.posY);
+    synthButton.class('synthesizer');
     synthButton.size(this.width, this.height);
 
     synthButton.mousePressed(() => {
